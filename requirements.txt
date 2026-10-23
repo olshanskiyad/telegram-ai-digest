@@ -1,0 +1,9 @@
+aiogram==3.31.0
+telethon==1.44.0
+aiosqlite==0.22.1
+apscheduler==3.11.3
+httpx==0.28.1
+feedparser==6.0.14
+pydantic==2.13.5
+pydantic-settings==2.15.0
+python-dotenv==1.2.3

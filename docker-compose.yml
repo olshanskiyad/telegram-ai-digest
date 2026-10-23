@@ -1,0 +1,9 @@
+services:
+  ai-news-digest:
+    build: .
+    container_name: ai-news-digest
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
